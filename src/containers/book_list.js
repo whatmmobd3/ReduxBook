@@ -17,9 +17,7 @@ class BookList extends React.Component {
       );
     });
   }
-  componentDidMount() {
-    console.log(this.props);
-  }
+
   render() {
     return <ul className="list-group col-sm-4">{this.renderList()}</ul>;
   }
